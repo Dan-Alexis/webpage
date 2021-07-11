@@ -53,10 +53,6 @@ a:hover {
   background-color: #e1f2fb;
 }
 
-.engineer{
-  margin-bottom: 150px;
-}
-
 .profile {
   border-radius: 50%;
   height: 150px;
@@ -96,6 +92,7 @@ a:hover {
   display: flex;
   flex-flow: row nowrap;
   justify-content:flex-end;
+  margin-top: 150px;
 
 }
 

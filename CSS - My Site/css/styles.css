@@ -1,15 +1,10 @@
 body {
+  background-color: #e3e6ea;
   color: #40514e ;
   text-align: center;
   font-family: 'Merriweather', serif;
   margin: 0;
 }
-
-.top-container {
-  background-color: #e1f2fb;
-
-}
-
 
 h1 {
   width: 10%;
@@ -22,33 +17,44 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #88e1f2;
+
+  color: #1982bf;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  padding-top: 80px;
-  text-align: center;
-  color: #88e1f2;
 
+  text-align: center;
+
+    color: #1982bf;
 }
 
-hr{
+hr {
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
-  width: 3% ;
+  width: 7% ;
   margin: 100px auto;
 }
 
-a{
+
+
+a {
   color: #11999e;
   margin: 10px 20px;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: #eaf6f6;
+}
+
+.top-container {
+  background-color: #e1f2fb;
+}
+
+.engineer{
+  margin-bottom: 150px;
 }
 
 .profile {
@@ -57,12 +63,14 @@ a:hover{
   width: 150px;
   margin: 80px auto 10px;
   margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
 }
 
+
+
 .mountain {
-  position: relative;
   margin: 0 auto;
-  margin-top: 150px;
   height: 400px;
   width: 600px
 }
@@ -70,40 +78,76 @@ a:hover{
 .cloud1 {
   height: 125px;
   width: 150px;
-  position: absolute;
   top: 50px;
-  left: 300px;
+  margin-left: auto;
+  align-self: flex-start;
 }
 
 .cloud2 {
+
   height: 125px;
   width: 150px;
-  position: absolute;
-  right: 300px;
+  margin-right: auto;
   bottom: 500px;
+  align-self: center;
+}
+
+.top-design{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:flex-end;
+
 }
 
 .troubleshoot {
-  width: 25%;
-  float:left;
-  margin-right: 30px;
+  width: 38%;
 }
 
 .repair {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+  width: 38%;
+}
 
-}
-.skill-row {
+.skill-row1 {
   width: 50%;
-  margin: 150px auto;
-  text-align: left;
+  margin: 75px auto 150px;
   line-height:2;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
+
+.skill-row2 {
+  width: 50%;
+  margin: 75px auto 150px;
+  line-height:2;
+  display:flex;
+  flex-flow: row wrap-reverse;
+  justify-content: center;
+}
+
 
 .middle-container{
   margin: 100px 0;
+}
+
+.clear1{
+  text-align: left;
+}
+
+.clear2{
+  text-align: right;
+}
+
+.description{
+  max-width: 38%;
+}
+
+.tools{
+  order: 2
+}
+
+.tools1{
+  order: 1
 }
 
 .contact-message{

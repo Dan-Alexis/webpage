@@ -6,6 +6,8 @@ body {
   margin: 0;
 }
 
+
+
 h1 {
   width: 10%;
   margin: 0 auto;
@@ -53,6 +55,10 @@ a:hover {
   background-color: #e1f2fb;
 }
 
+.intro{
+  margin: 0 auto;  
+}
+
 .profile {
   border-radius: 50%;
   height: 150px;
@@ -92,7 +98,7 @@ a:hover {
   display: flex;
   flex-flow: row nowrap;
   justify-content:flex-end;
-  margin-top: 150px;
+  margin-top: 200px;
 
 }
 

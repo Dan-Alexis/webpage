@@ -1,4 +1,5 @@
 body {
+  background-color:  #e1f2fb;
   color: #40514e ;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -25,6 +26,10 @@ body {
   flex-flow: column wrap;
   justify-content: center;
   align-content: center;
+}
+
+.lastButton{
+  margin-bottom: 50px;
 }
 
 a{

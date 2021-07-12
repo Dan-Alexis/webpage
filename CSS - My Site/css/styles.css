@@ -239,3 +239,7 @@ a:hover {
   flex-flow: row nowrap;
   justify-content: center;
 }
+
+.copyright{
+  width: 50%
+}
